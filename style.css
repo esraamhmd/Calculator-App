@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(135deg, #5A639C, #7776B3, #9B86BD, #E2BBE9);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+
+@keyframes gradientBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.syke {
+    color: #fff;
+    font-size: 3rem; 
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingEffect 5s steps(40, end);
+    font-family: 'Arial', sans-serif;
+}
+
+@keyframes typingEffect {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+#calc {
+    background-color: #2b2d42;
+    border-radius: 15px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+#display {
+    width: 100%;
+    padding: 20px;
+    font-size: 2.5rem;
+    text-align: right;
+    border: none;
+    background-color: #8d99ae;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    width: 100%;
+    height: 75px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9B86BD;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: 'Arial', sans-serif;
+}
+
+button:hover {
+    background-color: #7776B3;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #5A639C;
+    transform: scale(1);
+}
+
+.oper-btn {
+    background-color: #E2BBE9;
+}
+
+.oper-btn:hover {
+    background-color: #9B86BD;
+}
+
+.oper-btn:active {
+    background-color: #7776B3;
+}
+
+.sci-btn {
+    background-color: #6c757d;
+}
+
+.sci-btn:hover {
+    background-color: #5a5d6a;
+}
+
+.sci-btn:active {
+    background-color: #44465b;
+}
