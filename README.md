@@ -1,4 +1,5 @@
 # Calculator-App
+<img width="1919" height="850" alt="m1" src="https://github.com/user-attachments/assets/7dca12b0-7ddf-41f3-a6a5-d657295913fe" />
 
 ## Welcome to Calculator-App
 
