@@ -20,3 +20,8 @@ https://github.com/esraamhmd/Calculator-App/assets/145714762/351f2b32-3b55-4f89-
 - **HTML5:** Structure and layout of the calculator.
 - **CSS3:** Styling and visual design, including animations.
 - **JavaScript:** Functionality for handling user input, calculations, and display.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
